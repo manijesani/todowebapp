@@ -7,4 +7,4 @@ ip=`hostname -I | awk '{print $1}'`
 #ip=`curl icanhazip.com`
 
 #Entry For Settings.py line 28
-sed "s/host_ip/$ip/g" settings.py > settings.py
+sed "s/host_ip/$ip/g" settings.py
